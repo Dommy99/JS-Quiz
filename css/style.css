@@ -1,0 +1,69 @@
+:root {
+  --btn-color: #5515ca;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.questions {
+  justify-content: center;
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+/* button styles */
+.answers-btn {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.start-button {
+  background-color: var(--btn-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.hs-btn {
+  background-color: white;
+  border: none;
+  color: var(--btn-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/* end styles */
+
+.start {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 730px;
+  padding-right: 730px;
+}
+
+.hidden {
+  display: none;
+}
+.wrong {
+}
